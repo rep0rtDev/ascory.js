@@ -1,0 +1,27 @@
+{
+  "name": "ascory.js",
+  "version": "1.0.0",
+  "description": "Ascory API client library",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  },
+  "keywords": [
+    "ascory",
+    "api",
+    "client"
+  ],
+  "author": "rep0rt <rep0rt@neyrogen.online>",
+  "license": "MIT"
+}
