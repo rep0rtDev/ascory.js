@@ -4,7 +4,11 @@
   "description": "Ascory API client library",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "test": "echo \"No tests specified, but continuing...\"",
     "build": "babel src --out-dir dist",
     "prepublish": "npm run build"
   },
